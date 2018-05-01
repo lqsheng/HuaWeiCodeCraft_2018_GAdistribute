@@ -1,0 +1,192 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/DataContainer.h
+Flavor.h
+../lib/Flavor.h
+Host.h
+../lib/Host.h
+Problem.h
+../lib/Problem.h
+
+../lib/DistributeResult.h
+random
+-
+Flavor.h
+../lib/Flavor.h
+Host.h
+../lib/Host.h
+Problem.h
+../lib/Problem.h
+DataContainer.h
+../lib/DataContainer.h
+PredictResult.h
+../lib/PredictResult.h
+
+../lib/Flavor.h
+string
+-
+sstream
+-
+
+../lib/GA_Distribute.h
+random
+-
+Flavor.h
+../lib/Flavor.h
+Host.h
+../lib/Host.h
+Problem.h
+../lib/Problem.h
+DataContainer.h
+../lib/DataContainer.h
+PredictResult.h
+../lib/PredictResult.h
+DistributeResult.h
+../lib/DistributeResult.h
+
+../lib/Host.h
+string
+-
+sstream
+-
+vector
+-
+Flavor.h
+../lib/Flavor.h
+
+../lib/Matrix.h
+iostream
+-
+cstdlib
+-
+cmath
+-
+vector
+-
+typeinfo
+-
+
+../lib/PredictResult.h
+algorithm
+-
+Flavor.h
+../lib/Flavor.h
+Host.h
+../lib/Host.h
+Problem.h
+../lib/Problem.h
+
+../lib/Problem.h
+iostream
+-
+sstream
+-
+Flavor.h
+../lib/Flavor.h
+Host.h
+../lib/Host.h
+
+../lib/lib_io.h
+
+../lib/lib_time.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DataContainer.cpp
+stdio.h
+-
+algorithm
+-
+ctgmath
+-
+cmath
+-
+DataContainer.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DataContainer.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DistributeResult.cpp
+DistributeResult.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DistributeResult.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/GA_Distribute.cpp
+GA_Distribute.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/GA_Distribute.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/ecs.cpp
+predict.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/predict.h
+lib_io.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/lib_io.h
+lib_time.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/lib_time.h
+stdio.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/stdio.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/io.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+time.h
+-
+sys/timeb.h
+-
+errno.h
+-
+unistd.h
+-
+signal.h
+-
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/predict.cpp
+predict.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/predict.h
+cfloat
+-
+stdio.h
+-
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+algorithm
+-
+random
+-
+ctgmath
+-
+cmath
+-
+Flavor.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/Flavor.h
+Host.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/Host.h
+Problem.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/Problem.h
+DataContainer.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DataContainer.h
+PredictResult.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/PredictResult.h
+DistributeResult.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/DistributeResult.h
+GA_Distribute.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/GA_Distribute.h
+Matrix.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/Matrix.h
+
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/predict.h
+lib_io.h
+/home/sheng/huawei_fusai/fenpei/ecs (for_blog)/ecs/lib_io.h
+
